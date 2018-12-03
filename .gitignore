@@ -8,7 +8,7 @@
 *.obj
 
 # Compile executor Objects
-./bin
+#./bin
 
 # Precompiled Headers
 *.gch
