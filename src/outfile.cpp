@@ -4,6 +4,7 @@
 #ifdef WIN32
 #include <direct.h>
 #endif
+
 #ifdef linux 
 #include <dirent.h>
 #endif
@@ -16,7 +17,7 @@ using namespace std;
 bool dirExists(const string &dir) {
 	
 
-	if(_access(dir.c_str(),0) == -1 ) {
+	if(access(dir.c_str(),0) == -1 ) {
 		cout << dir << " is not existing " << endl;
 		cout << " now create it ." << endl;
 
