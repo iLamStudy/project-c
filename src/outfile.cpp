@@ -12,7 +12,7 @@ int main() {
 	double d_price_b;
 
 	ofstream outFile;
-	outFile.open("carinfo.txt");
+	outFile.open("data/carinfo.txt");
 	cout << "Enter the model of automobile : ";
 	cin.getline(automobile,50);
 	cout << "Enter the model year : ";
