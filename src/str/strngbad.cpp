@@ -28,7 +28,7 @@ StringBad::StringBad() {
 StringBad::~StringBad() {
 	cout << " \" " << str << " \" object delete, ";
 	--num_strings;
-	cout << num_string << " left\n";
+	cout << num_strings << "left\n";
 	delete [] str;			//required
 }
 
