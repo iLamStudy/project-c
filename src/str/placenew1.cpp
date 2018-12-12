@@ -24,7 +24,7 @@ public:
 	void Show() const {
 		cout << words << ", " << number << endl;
 	}
-}
+};
 
 int main() {
 	char * buffer = new char[BUF];
