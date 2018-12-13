@@ -46,7 +46,7 @@ int main()
             if (sayings[i] < sayings[first])
                 first = i;
         }
-        cout << "Shortest saying:\n" << sayings[shortest] << endl;;
+        cout << "Shortest saying:\n" << sayings[shortest] << endl;
         cout << "First alphabetically:\n" << sayings[first] << endl;
         cout << "This program used "<< String::HowMany() 
              << " String objects. Bye.\n";
