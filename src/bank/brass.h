@@ -15,7 +15,7 @@ public:
 	void Deposit(double amt);
 	virtual void Withdraw(double amt);
 	double Balance() const;
-	double void ViewAcct() const;
+	virtual void ViewAcct() const;
 	virtual ~Brass(){};
 };
 
