@@ -68,7 +68,7 @@ BrassPlus::BrassPlus(const std::string &s,long an,double bal,
 
 BrassPlus::BrassPlus(const Brass &ba,double ml,double r) 
 	: Brass(ba) {
-	maxLoan		= m;
+	maxLoan		= ml;
 	owesBank	= 0.0;
 	rate		= r;
 }
